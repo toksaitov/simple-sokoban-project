@@ -51,23 +51,26 @@ Be inventive in applying OOP principles to redesign the game, ensuring to implem
 Upon completion, your `sokoban` directory should have an organized structure similar to the following:
 
 ```
-└── sokoban
-    ├── . (.idea, .gitignore, CMakeLists.txt)
+.
+└── <repository>
     ├── data
-    │   ├── fonts
-    │   │   └── ...
-    │   ├── images
-    │   │   └── ...
-    │   ├── sounds
-    │   │   └── ...
+    │   ├── fonts
+    │   │   └── ...
+    │   ├── images
+    │   │   └── ...
+    │   ├── music
+    │   │   └── ...
+    │   ├── sounds
+    │   │   └── ...
     │   └── levels.sl
-    ├── src
-    │   ├── sokoban.cpp
-    │   ├── level.h
-    │   ├── level.cpp
-    │   ├── player.h
-    │   ├── player.cpp
-    │   └── <additional .cpp and .h files>
+    ├── sokoban.cpp
+    ├── level.h
+    ├── level.cpp
+    ├── player.h
+    ├── player.cpp
+    ├── <various header files>.h
+    ├── <various source files>.cpp
+    ├── ... (.idea, .gitignore, CMakeLists.txt, other directories)
     └── Readme.md
 ```
 
